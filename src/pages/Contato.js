@@ -19,11 +19,11 @@ function Contato(){
     const icons = [
         {
             icon: whatsapp,
-            link: ''
+            link: 'https://wa.me/5518996758865?text='
         },
         {
             icon: instagram,
-            link: ''
+            link: 'https://www.instagram.com/_dinamicaoficinamecanica/'
         },
         {
             icon: facebook
@@ -45,7 +45,9 @@ function Contato(){
                     <div className='flex space-x-5 cursor-pointer w-fit'>
                         {icons.map((icon)=>(
                             <div className='border-2 border-titulo rounded-full size-16 flex items-center justify-center'>
-                                <img src={icon.icon} alt='icon' className='w-10'/>
+                                <a href={icon.link} target='_blank'>
+                                    <img src={icon.icon} alt='icon' className='w-10'/>
+                                </a>
                             </div>
                         ))}
                     </div>

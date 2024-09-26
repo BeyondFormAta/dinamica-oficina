@@ -8,6 +8,8 @@ import abs from '../images/carro.png'
 import direcao from '../images/direcao.png'
 import freio from '../images/freio.png'
 import suspensao from '../images/suspensao-do-carro.png'
+import injecao from '../images/indicador-de-carro.png'
+import bateria from '../images/painel.png'
 
 const servico = [
     {
@@ -45,6 +47,14 @@ const servico = [
     {
         imagem: suspensao,
         descricao:'Suspensão'
+    },
+    {
+        imagem: injecao,
+        descricao:'Injeção eletrônica'
+    },
+    {
+        imagem: bateria,
+        descricao:'Bateria'
     }
 ]
 
