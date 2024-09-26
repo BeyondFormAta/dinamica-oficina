@@ -31,7 +31,7 @@ function Contato(){
     ]
 
     return(
-        <div className="h-screen bg-preto flex items-center justify-around">
+        <div className="h-screen bg-preto flex flex-col lg:flex-row items-center justify-around">
             <div>
                 <h1 className="text-titulo text-6xl font-bold mb-16">Fale conosco</h1>
                 {contatos.map((item)=>(
@@ -51,7 +51,7 @@ function Contato(){
                     </div>
                 </li>
             </div>
-            <div className="size-96">
+            <div className="size-72 lg:size-96">
                 <img src={logo} alt="logo dinamica"/>
             </div>
         </div>
