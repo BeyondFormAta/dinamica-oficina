@@ -26,7 +26,8 @@ function Contato(){
             link: 'https://www.instagram.com/_dinamicaoficinamecanica/'
         },
         {
-            icon: facebook
+            icon: facebook,
+            link: 'https://www.facebook.com/dinamicaoficinamecanica'
         }
     ]
 
