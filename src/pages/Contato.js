@@ -45,11 +45,11 @@ function Contato(){
                     <h3 className="text-3xl text-titulo font-bold mb-5">SOCIAL</h3>
                     <div className='flex space-x-5 cursor-pointer w-fit'>
                         {icons.map((icon)=>(
-                            <div className='border-2 border-titulo rounded-full size-16 flex items-center justify-center'>
-                                <a href={icon.link} target='_blank'>
+        <a href={icon.link} target='_blank'>                  
+  <div className='border-2 border-titulo rounded-full size-16 flex items-center justify-center'>                                
                                     <img src={icon.icon} alt='icon' className='w-10'/>
-                                </a>
                             </div>
+</a>
                         ))}
                     </div>
                 </li>
